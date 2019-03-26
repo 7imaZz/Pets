@@ -139,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //Override this method to update list with every pet added or deleted
     @Override
     protected void onStart() {
         showPets();
