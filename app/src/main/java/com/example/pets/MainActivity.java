@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 final Pets pet = (Pets) parent.getItemAtPosition(position);
-                //make an alert dialog to confirm that the user really need to delete selected pet.
+                //make an alert dialog to confirm that the user really need to delete the selected pet.
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Confirmation")
                         .setMessage("Do You Want To Delete This Pet?")
